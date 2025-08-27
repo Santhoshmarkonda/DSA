@@ -1,23 +1,32 @@
 package DSA.day1;
 
 public class PrimeOrNot {
-	
-	public static void main(String[] args) {
-		int n = 2;
-		int div = 2;
-		boolean isPrime = true;
-		
-		while(div <= n/2) { 
-			if(n % div == 0) {
-				isPrime = false;
-				break;
-			}
-			div++;
-		}
-		
-		if(isPrime && n > 1) 
-			System.out.println(n + " is a Prime Number");
-		else
-			System.out.println(n + " is Not a Prime Number");
-	}
+
+    public static void main(String[] args) {
+        /*
+         *   Pseudo Code:
+         * 
+         *   Begin
+         * 
+         *   Set n = 2
+         *   Set div = 2
+         *   Set isPrime = true
+         * 
+         *   While div <= n / 2 do
+         *       If n % div == 0 then
+         *           Set isPrime = false
+         *           Break the loop
+         *       EndIf
+         *       Increment div by 1
+         *   EndWhile
+         * 
+         *   If isPrime = true AND n > 1 then
+         *       Print n + " is a Prime Number"
+         *   Else
+         *       Print n + " is Not a Prime Number"
+         * 
+         *   End
+         */
+
+    }
 }
