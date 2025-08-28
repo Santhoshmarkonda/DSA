@@ -1,4 +1,4 @@
-package DSA.day2;
+package ps.day2;
 
 public class Question_1 {
 

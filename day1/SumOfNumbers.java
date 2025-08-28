@@ -1,4 +1,4 @@
-package DSA.day1;
+package ps.day1;
 
 public class SumOfNumbers {
 
