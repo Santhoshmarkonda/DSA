@@ -10,10 +10,10 @@ public class PrintNumbers {
 		int n = sc.nextInt();
 		
 		int i = 1;
-		while (i <= n) {
+		do {
 			System.out.print(i + " ");
 			i++;
-		}
+		} while (i <= n) ;
 		sc.close();
 	}
 
