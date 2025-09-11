@@ -37,3 +37,5 @@ public class RotatedBinarySearch {
 	}
 
 }
+
+// Time Complexity: O(log n)
