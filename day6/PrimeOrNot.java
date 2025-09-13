@@ -10,7 +10,7 @@ public class PrimeOrNot {
 		int n = sc.nextInt();
 		boolean isPrime = true;
 
-		if (n == 1) {
+		if (n == 0) {
 			isPrime = false;
 		}
 
