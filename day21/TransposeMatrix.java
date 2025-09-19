@@ -18,7 +18,11 @@ public class TransposeMatrix {
 		System.out.println("The matrix is: ");
 		for (int i = 0; i < matrix.length; i++) {
 			for (int j = 0; j < matrix[0].length; j++) {
+<<<<<<< HEAD
 				System.out.print(matrix[i][j] + " ");
+=======
+				System.out.print(matrix[i][j] + "");
+>>>>>>> 41fe6108dfa20518d14ed24e91013b66b4ed3aa8
 			}
 			System.out.println();
 		}
